@@ -14,7 +14,7 @@ public class Informe {
             double [] notas, double promedio) {
         String notas1 = "";
         for (int f = 0; f < 4; f++) {
-            notas1 = String.format("%s\n%.2f\n", notas1, notas[f]);
+            notas1 = String.format("%s\n%.2f", notas1, notas[f]);
         }
         System.out.printf("Los datos ingresados son:\n"
                     + "Nombre: %s\n"
@@ -22,7 +22,7 @@ public class Informe {
                     + "Ciudad: %s\n"
                     + "Nombre empresa: %s\n"
                     + "Dirección empresa: %s\n"
-                    + "Notas: \n%s\n"
+                    + "Notas: %s"
                     + "Promedio: %.2f\n",
                     n,
                     a,

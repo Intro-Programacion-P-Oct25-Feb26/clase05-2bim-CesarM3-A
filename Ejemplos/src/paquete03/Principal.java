@@ -24,6 +24,6 @@ public class Principal {
         int multiplicacion = OperadorTres.obtenerMultiplicacion(valorA, 
                                                                 valorB);
         Informe.imprimir(valorA, valorB, suma, multiplicacion);
-        
+            
     }
 }
